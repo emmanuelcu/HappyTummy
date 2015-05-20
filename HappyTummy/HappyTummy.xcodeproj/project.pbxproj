@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9FE9C11B06CA2300A0FFE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE9C01B06CA2300A0FFE3 /* main.m */; };
+		2A9FE9C41B06CA2300A0FFE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE9C31B06CA2300A0FFE3 /* AppDelegate.m */; };
+		2A9FE9C71B06CA2300A0FFE3 /* HappyTummy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE9C51B06CA2300A0FFE3 /* HappyTummy.xcdatamodeld */; };
+		2A9FE9CA1B06CA2300A0FFE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE9C91B06CA2300A0FFE3 /* ViewController.m */; };
+		2A9FE9CD1B06CA2300A0FFE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FE9CB1B06CA2300A0FFE3 /* Main.storyboard */; };
+		2A9FE9CF1B06CA2300A0FFE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FE9CE1B06CA2300A0FFE3 /* Images.xcassets */; };
+		2A9FE9D21B06CA2300A0FFE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FE9D01B06CA2300A0FFE3 /* LaunchScreen.xib */; };
+		2A9FE9DE1B06CA2300A0FFE3 /* HappyTummyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FE9DD1B06CA2300A0FFE3 /* HappyTummyTests.m */; };
+		2A9FE9EC1B0C342600A0FFE3 /* happytummyStart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FE9EB1B0C342600A0FFE3 /* happytummyStart.jpg */; };
+		2A9FE9F01B0C38D800A0FFE3 /* foodOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FE9ED1B0C38D800A0FFE3 /* foodOne.jpg */; };
+		2A9FE9F11B0C38D800A0FFE3 /* FoodThree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FE9EE1B0C38D800A0FFE3 /* FoodThree.jpg */; };
+		2A9FE9F21B0C38D800A0FFE3 /* foodTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FE9EF1B0C38D800A0FFE3 /* foodTwo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A9FE9D81B06CA2300A0FFE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A9FE9B31B06CA2300A0FFE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9FE9BA1B06CA2300A0FFE3;
+			remoteInfo = HappyTummy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A9FE9BB1B06CA2300A0FFE3 /* HappyTummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyTummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9FE9BF1B06CA2300A0FFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9FE9C01B06CA2300A0FFE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A9FE9C21B06CA2300A0FFE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A9FE9C31B06CA2300A0FFE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A9FE9C61B06CA2300A0FFE3 /* HappyTummy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyTummy.xcdatamodel; sourceTree = "<group>"; };
+		2A9FE9C81B06CA2300A0FFE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A9FE9C91B06CA2300A0FFE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A9FE9CC1B06CA2300A0FFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9FE9CE1B06CA2300A0FFE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A9FE9D11B06CA2300A0FFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2A9FE9D71B06CA2300A0FFE3 /* HappyTummyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyTummyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9FE9DC1B06CA2300A0FFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9FE9DD1B06CA2300A0FFE3 /* HappyTummyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyTummyTests.m; sourceTree = "<group>"; };
+		2A9FE9EB1B0C342600A0FFE3 /* happytummyStart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happytummyStart.jpg; sourceTree = "<group>"; };
+		2A9FE9ED1B0C38D800A0FFE3 /* foodOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodOne.jpg; sourceTree = "<group>"; };
+		2A9FE9EE1B0C38D800A0FFE3 /* FoodThree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FoodThree.jpg; sourceTree = "<group>"; };
+		2A9FE9EF1B0C38D800A0FFE3 /* foodTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodTwo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9FE9B81B06CA2300A0FFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9FE9D41B06CA2300A0FFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A9FE9B21B06CA2300A0FFE3 = {
+			isa = PBXGroup;
+			children = (
+				2A9FE9BD1B06CA2300A0FFE3 /* HappyTummy */,
+				2A9FE9DA1B06CA2300A0FFE3 /* HappyTummyTests */,
+				2A9FE9BC1B06CA2300A0FFE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9FE9BC1B06CA2300A0FFE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FE9BB1B06CA2300A0FFE3 /* HappyTummy.app */,
+				2A9FE9D71B06CA2300A0FFE3 /* HappyTummyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9FE9BD1B06CA2300A0FFE3 /* HappyTummy */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FE9C21B06CA2300A0FFE3 /* AppDelegate.h */,
+				2A9FE9C31B06CA2300A0FFE3 /* AppDelegate.m */,
+				2A9FE9C81B06CA2300A0FFE3 /* ViewController.h */,
+				2A9FE9C91B06CA2300A0FFE3 /* ViewController.m */,
+				2A9FE9CB1B06CA2300A0FFE3 /* Main.storyboard */,
+				2A9FE9CE1B06CA2300A0FFE3 /* Images.xcassets */,
+				2A9FE9D01B06CA2300A0FFE3 /* LaunchScreen.xib */,
+				2A9FE9C51B06CA2300A0FFE3 /* HappyTummy.xcdatamodeld */,
+				2A9FE9BE1B06CA2300A0FFE3 /* Supporting Files */,
+			);
+			path = HappyTummy;
+			sourceTree = "<group>";
+		};
+		2A9FE9BE1B06CA2300A0FFE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FE9ED1B0C38D800A0FFE3 /* foodOne.jpg */,
+				2A9FE9EE1B0C38D800A0FFE3 /* FoodThree.jpg */,
+				2A9FE9EF1B0C38D800A0FFE3 /* foodTwo.jpg */,
+				2A9FE9EB1B0C342600A0FFE3 /* happytummyStart.jpg */,
+				2A9FE9BF1B06CA2300A0FFE3 /* Info.plist */,
+				2A9FE9C01B06CA2300A0FFE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A9FE9DA1B06CA2300A0FFE3 /* HappyTummyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FE9DD1B06CA2300A0FFE3 /* HappyTummyTests.m */,
+				2A9FE9DB1B06CA2300A0FFE3 /* Supporting Files */,
+			);
+			path = HappyTummyTests;
+			sourceTree = "<group>";
+		};
+		2A9FE9DB1B06CA2300A0FFE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FE9DC1B06CA2300A0FFE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9FE9BA1B06CA2300A0FFE3 /* HappyTummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9FE9E11B06CA2300A0FFE3 /* Build configuration list for PBXNativeTarget "HappyTummy" */;
+			buildPhases = (
+				2A9FE9B71B06CA2300A0FFE3 /* Sources */,
+				2A9FE9B81B06CA2300A0FFE3 /* Frameworks */,
+				2A9FE9B91B06CA2300A0FFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyTummy;
+			productName = HappyTummy;
+			productReference = 2A9FE9BB1B06CA2300A0FFE3 /* HappyTummy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A9FE9D61B06CA2300A0FFE3 /* HappyTummyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9FE9E41B06CA2300A0FFE3 /* Build configuration list for PBXNativeTarget "HappyTummyTests" */;
+			buildPhases = (
+				2A9FE9D31B06CA2300A0FFE3 /* Sources */,
+				2A9FE9D41B06CA2300A0FFE3 /* Frameworks */,
+				2A9FE9D51B06CA2300A0FFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A9FE9D91B06CA2300A0FFE3 /* PBXTargetDependency */,
+			);
+			name = HappyTummyTests;
+			productName = HappyTummyTests;
+			productReference = 2A9FE9D71B06CA2300A0FFE3 /* HappyTummyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9FE9B31B06CA2300A0FFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Emmanuel Cuevas";
+				TargetAttributes = {
+					2A9FE9BA1B06CA2300A0FFE3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2A9FE9D61B06CA2300A0FFE3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2A9FE9BA1B06CA2300A0FFE3;
+					};
+				};
+			};
+			buildConfigurationList = 2A9FE9B61B06CA2300A0FFE3 /* Build configuration list for PBXProject "HappyTummy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A9FE9B21B06CA2300A0FFE3;
+			productRefGroup = 2A9FE9BC1B06CA2300A0FFE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9FE9BA1B06CA2300A0FFE3 /* HappyTummy */,
+				2A9FE9D61B06CA2300A0FFE3 /* HappyTummyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9FE9B91B06CA2300A0FFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9FE9CD1B06CA2300A0FFE3 /* Main.storyboard in Resources */,
+				2A9FE9D21B06CA2300A0FFE3 /* LaunchScreen.xib in Resources */,
+				2A9FE9EC1B0C342600A0FFE3 /* happytummyStart.jpg in Resources */,
+				2A9FE9F21B0C38D800A0FFE3 /* foodTwo.jpg in Resources */,
+				2A9FE9CF1B06CA2300A0FFE3 /* Images.xcassets in Resources */,
+				2A9FE9F11B0C38D800A0FFE3 /* FoodThree.jpg in Resources */,
+				2A9FE9F01B0C38D800A0FFE3 /* foodOne.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9FE9D51B06CA2300A0FFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9FE9B71B06CA2300A0FFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9FE9C71B06CA2300A0FFE3 /* HappyTummy.xcdatamodeld in Sources */,
+				2A9FE9C41B06CA2300A0FFE3 /* AppDelegate.m in Sources */,
+				2A9FE9CA1B06CA2300A0FFE3 /* ViewController.m in Sources */,
+				2A9FE9C11B06CA2300A0FFE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9FE9D31B06CA2300A0FFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9FE9DE1B06CA2300A0FFE3 /* HappyTummyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A9FE9D91B06CA2300A0FFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9FE9BA1B06CA2300A0FFE3 /* HappyTummy */;
+			targetProxy = 2A9FE9D81B06CA2300A0FFE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A9FE9CB1B06CA2300A0FFE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9FE9CC1B06CA2300A0FFE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A9FE9D01B06CA2300A0FFE3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9FE9D11B06CA2300A0FFE3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A9FE9DF1B06CA2300A0FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A9FE9E01B06CA2300A0FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A9FE9E21B06CA2300A0FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyTummy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A9FE9E31B06CA2300A0FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyTummy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A9FE9E51B06CA2300A0FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HappyTummyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyTummy.app/HappyTummy";
+			};
+			name = Debug;
+		};
+		2A9FE9E61B06CA2300A0FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HappyTummyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyTummy.app/HappyTummy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9FE9B61B06CA2300A0FFE3 /* Build configuration list for PBXProject "HappyTummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9FE9DF1B06CA2300A0FFE3 /* Debug */,
+				2A9FE9E01B06CA2300A0FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9FE9E11B06CA2300A0FFE3 /* Build configuration list for PBXNativeTarget "HappyTummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9FE9E21B06CA2300A0FFE3 /* Debug */,
+				2A9FE9E31B06CA2300A0FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9FE9E41B06CA2300A0FFE3 /* Build configuration list for PBXNativeTarget "HappyTummyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9FE9E51B06CA2300A0FFE3 /* Debug */,
+				2A9FE9E61B06CA2300A0FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A9FE9C51B06CA2300A0FFE3 /* HappyTummy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A9FE9C61B06CA2300A0FFE3 /* HappyTummy.xcdatamodel */,
+			);
+			currentVersion = 2A9FE9C61B06CA2300A0FFE3 /* HappyTummy.xcdatamodel */;
+			path = HappyTummy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A9FE9B31B06CA2300A0FFE3 /* Project object */;
+}
